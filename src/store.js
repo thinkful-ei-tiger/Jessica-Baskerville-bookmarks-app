@@ -3,14 +3,11 @@ const STORE = (function(){
     this.error = error;
   };
     // find by ID 
+  //const findById = function()
     //addbookmark
+  //const addBookmark = function()
     //updatebookmark
+  //const findAndUpdate = function()
     //deletebookmarks
-
-    function renderError(){
-        if (STORE.error) {
-            const elem = generateError(STORE.error);
-            $(`.error-container`).html(elem);
-        } else
-    }
+  //const findAndDelete = function()
 });
